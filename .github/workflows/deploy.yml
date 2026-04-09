@@ -44,7 +44,9 @@ jobs:
         run: npm run build
         
       - name: Phân quyền giao diện GitHub
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
+        with:
+          enablement: true
         
       - name: Nén và Up Artifact (thư mục dist của Vite)
         uses: actions/upload-pages-artifact@v3
