@@ -2,13 +2,6 @@
 
 Dự án Landing Page chính thức của **Cơ sở Giáo dục Hòa nhập Happy Kids**. Trang web được thiết kế với giao diện vô cùng dễ thương, tươi sáng nhưng vẫn đảm bảo tính chuẩn xác và chuyên nghiệp để phụ huynh yên tâm tham khảo dịch vụ.
 
-## 🌟 Tính năng kỹ thuật nổi bật
-- **Công nghệ cốt lõi:** Được xây dựng hầu như từ Vanilla HTML, CSS, JavaScript giúp tối ưu hóa hiệu năng, tốc độ tải cực kỳ nhanh.
-- **Môi trường & Đóng gói:** Được quản lý source code và local server mạnh mẽ thông qua `Vite`.
-- **Responsive Web Design:** Hiển thị và căn lề hoàn hảo trên đa thiết bị: Desktop (Máy tính), Tablet (Máy tính bảng) và Mobile (Điện thoại nhỏ).
-- **Animation UX:** Chuyển động bong bóng nổi 3D, hiệu ứng lấp ló (fade-up) khi cuộn chuột nhờ `IntersectionObserver`.
-- **Bảo mật bản quyền:** Đã kích hoạt khiên JS chống bôi đen văn bản, vô hiệu hóa phím tắt hệ thống để chặn DevTools (F12, Ctrl+U...).
-
 ## 🚀 Hướng dẫn cài đặt và chạy (Run Locally)
 
 Môi trường yêu cầu: Thử nghiệm cần cài sẵn [Node.js](https://nodejs.org/) trong máy của bạn.
@@ -38,4 +31,3 @@ Vite sẽ áp dụng cơ chế tự động tải lại (Hot Module Replacement)
 - `public/` - Thư mục lưu trữ assets cục bộ (ví dụ: Logo, hình nền Hero AI).
 
 ---
-*© 2026 Xây dựng và Phát triển bởi AI Partner.*
