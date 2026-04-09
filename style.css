@@ -152,9 +152,9 @@ h1, h2, h3, h4 {
   gap: 15px;
 }
 .logo img {
-  height: 55px;
-  border-radius: 50%;
-  box-shadow: var(--shadow-sm);
+  height: 60px;
+  width: auto;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 .logo:hover img {
@@ -443,9 +443,9 @@ h1, h2, h3, h4 {
   margin-bottom: 25px;
 }
 .footer-logo img {
-  height: 70px;
-  border-radius: 50%;
-  box-shadow: var(--shadow-sm);
+  height: 80px;
+  width: auto;
+  object-fit: contain;
 }
 .footer-logo h2 {
   font-size: 2.5rem;
