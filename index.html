@@ -31,6 +31,7 @@
         <ul>
           <li><a href="#home">Trang chủ</a></li>
           <li><a href="#services">Dịch vụ</a></li>
+          <li><a href="#register">Đăng ký</a></li>
           <li><a href="#contact">Liên hệ</a></li>
         </ul>
       </nav>
@@ -94,6 +95,56 @@
           <h3>Rối Loạn Ngôn Ngữ</h3>
           <p>Chuyên cung cấp lớp trị liệu ngôn ngữ, phát âm, sửa ngọng giúp bé diễn đạt và giao tiếp mạch lạc hơn.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="register">
+    <div class="container register-container">
+      <div class="register-box fade-up">
+        <div class="section-header" style="margin-bottom: 40px;">
+          <h2>Đăng Ký Khám & Tư Vấn Miễn Phí</h2>
+          <p>Cha mẹ vui lòng để lại thông tin, đội ngũ chuyên gia của Happy Kids sẽ liên hệ hỗ trợ trong thời gian sớm nhất.</p>
+        </div>
+        <form class="register-form" id="consultationForm" action="mailto:contact@happykids.edu.vn" method="POST" enctype="text/plain">
+          <div class="form-group">
+            <label for="childName">Họ và tên bé <span class="text-red">*</span></label>
+            <input type="text" id="childName" name="Ho_va_ten_be" required placeholder="Nhập tên của bé...">
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="childAge">Tuổi <span class="text-red">*</span></label>
+              <input type="text" id="childAge" name="Tuoi" required placeholder="Ví dụ: 4 tuổi hoặc 30 tháng...">
+            </div>
+            <div class="form-group">
+              <label for="childGender">Giới tính</label>
+              <select id="childGender" name="Gioi_tinh">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="parentName">Họ và tên Bố/Mẹ <span class="text-red">*</span></label>
+            <input type="text" id="parentName" name="Ho_ten_bo_me" required placeholder="Nhập tên phụ huynh...">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phoneNumber">Số điện thoại liên hệ <span class="text-red">*</span></label>
+              <input type="tel" id="phoneNumber" name="So_dien_thoai" required placeholder="Nhập số để được gọi lại...">
+            </div>
+            <div class="form-group">
+              <label for="location">Nơi sinh sống</label>
+              <input type="text" id="location" name="Noi_sinh_song" placeholder="Ví dụ: Ba Đồn, Quảng Bình...">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" style="width: 100%; justify-content: center; margin-top: 15px;">Gửi Đăng Ký Ngay <i class="fas fa-paper-plane"></i></button>
+        </form>
       </div>
     </div>
   </section>
